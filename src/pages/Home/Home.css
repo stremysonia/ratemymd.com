@@ -1,0 +1,30 @@
+.home-image {
+    position: absolute;
+    top: 38%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 1500px;
+}
+
+.cta-button {
+    position: absolute;
+    top: 45%;
+    left: 54%;
+    transform: translate(-50%, -50%);
+    text-transform: uppercase;
+    text-decoration: none;
+    color: black;
+    letter-spacing: 4.5px;
+    color: white;
+    border: 1px solid #0b4bb8;
+    background-color: #0b4bb8;
+    padding: 20px 42px;
+    border-radius: 10px;
+    font-weight: 700;
+    /* transition: all .2s ease-in; */
+}
+
+.cta-button:hover {
+    /* transform: translateX(-15px) scale(1.1); */
+    /* box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.3); */
+}

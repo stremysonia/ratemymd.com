@@ -1,0 +1,10 @@
+.logo {
+    /* font-style: blue; */
+    height: 200px;
+    width: 200px;
+    bottom: 80.8%;
+    position: absolute;
+    left: 2%;
+    fill: blue;
+    /* background-color: blue; */
+}

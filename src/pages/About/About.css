@@ -1,0 +1,15 @@
+.about-us-container {
+    position: absolute;
+    text-align: center;
+    top: 48%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+
+.about-us {
+    font-size: 12.5px;
+    position: relative;
+    padding: 25px 25px 8px 25px;
+    line-height: 30px;
+    letter-spacing: 1.2px; 
+}

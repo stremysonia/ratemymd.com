@@ -1,0 +1,112 @@
+body {
+    overflow: hidden;
+    height: 100vh;
+    width: 100vw;
+}
+
+.navbar-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    flex-direction: row;
+    /* background-color: yellow; */
+    padding: 60px;
+    /* background-color: transparent; */
+}
+
+.logo-container {
+    padding-left: 0px;
+    padding-right: 80px;
+    /* transition: all .3s ease-out; */
+    /* border-radius: 100%; */
+}
+
+.logo:hover {
+    /* transform: translateY(-7px) scale(1); */
+}
+
+.logo {
+    text-transform: uppercase;
+
+    color: black;
+    text-decoration: none;
+    letter-spacing: 2px;
+    font-weight: 800;
+
+
+    /* margin-left: auto; */
+    /* display: flex; */
+    /* align-items: center; */
+    /* justify-content: center; */
+    /* position: relative; */
+    /* left: 10px; */
+    /* padding-top: 30px; */
+    cursor: pointer;
+    /* transition: all .1s ease-out; */
+    /* background-color: transparent; */
+    /* border-radius: 50px; */
+    /* border: 1px solid black; */
+    /* transform: translateY(-15px) scale(1); */
+}
+
+.logo-1 {
+    text-align: center;
+}
+
+.navbar-links {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+link:hover {
+    color: rgba(0, 0, 0, 0.5);
+}
+
+link:active {
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.link {
+    padding-right: 50px;
+    padding-left: 50px;
+    text-decoration: none;
+    display: flex;
+    justify-content: left;
+    /* align-items: center; */
+    color: black;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    font-size: 12px;
+    position: relative;
+    /* left: 350px; */
+}
+
+.search-bar {
+    width: 510px;
+    border-radius: 16px;
+    /* border: none; */
+    /* color:  rgb(51, 51, 51); */
+    font-size: 12px;
+    height: 40px;
+    letter-spacing: 1px;
+    /* outline: none; */
+    text-indent: 10px;
+    /* cursor: pointer; */
+}
+
+input:placeholder-shown {
+    padding-left: 20px;
+    letter-spacing: 2px;
+}
+
+input::placeholder {
+    padding-left: 2px;
+}
+
+.search-bar-icon {
+    padding-left: 10px;
+    padding-right: 10px;
+    cursor: pointer;
+}

@@ -1,0 +1,54 @@
+.footer-container {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    width: 100%;
+    justify-content: center;
+}
+
+.footer {
+    padding-right: 50px;
+    cursor: pointer;
+}
+
+.footer-copyright, .footer {
+    letter-spacing: 2px;
+    position: relative;
+    font-size: 10px;
+    text-transform: uppercase;
+}
+
+.rights {
+    padding-right: 50px;
+    padding-left: 50px;
+}
+
+.about, .contact {
+    position: relative;
+    padding-right: 50px;
+    padding-left: 50px;
+    display: flex;
+    justify-content: left;
+    text-decoration: none;
+    color: black;
+}
+
+
+
+.icons {
+    position: relative;
+    width: 100px;
+    cursor: pointer;
+    justify-content: space-evenly;
+}
+
+
+li {
+    position: relative;
+    list-style: none;
+}
+
