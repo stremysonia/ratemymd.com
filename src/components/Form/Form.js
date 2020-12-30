@@ -1,44 +1,52 @@
 import React from 'react'
 import './Form.css'
+import Logo from '../../components/Logo/Logo'
 
 const Form = () => {
         return (
                 <>
-                    <div className="form-container">
-                        <div>
-                            <input type="name" 
-                                    id="name" 
-                                    className="form-name-control" 
-                                    placeholder="Name"
-                                    autoComplete="off"
+                    <div className="form-containers">
+                        <span className="form-contact-container">
+                            <Logo></Logo>
+                            <span className="form-contact-info">Contact Us</span>
+                            <span className="form-contact-info">4398 Harter Street</span>
+                            <span className="form-contact-info">Miami, Florida 33801</span>
+                            <span className="form-contact-info">Phone (937) 575 - 8211</span>
+                                <input 
+                                    idName="right" 
+                                    type="name" 
+                                    placeholder="Name" 
+                                    autoComplete="off" 
+                                    autoCorrect="off"
                                     required>
-                            </input>
-                        </div>
-                            <div>
-                                <input type="email" 
-                                        id="e-mail" 
-                                        className="form-email-control" 
-                                        placeholder="E-mail"
-                                        autoComplete="off"
-                                        required>
                                 </input>
-                            </div>
-                                <div>
-                                    <textarea type="message" 
-                                                id="message" 
-                                                className="form-message-control" 
-                                                placeholder="Message"
-                                                autoComplete="off"
-                                                required>
-                                    </textarea>
+                                <input 
+                                    idName="right" 
+                                    type="email" 
+                                    placeholder="Email" 
+                                    autoComplete="off" 
+                                    autoCorrect="off">
+                                </input>
+                                <input 
+                                    idName="right"                                           
+                                    type="numbers" 
+                                    placeholder="Contact Number" 
+                                    autoCorrect="off">
+                                </input>
+                                <input 
+                                    idName="right" 
+                                    type="email" 
+                                    placeholder="Email" 
+                                    autoComplete="off" 
+                                    autoCorrect="off">
+                                </input>
+                        </span>
+                            <div className="form-input-container">
+                                <div className="form-column-right">
+                                    <textarea idName="right" placeholder="Message"></textarea>
                                 </div>
-                                    <div>
-                                        <button type="submit" 
-                                                className="form-button">
-                                                Send
-
-                                        </button>
-                                    </div>
+                                    <button className="form-button" type="submit">Send</button>
+                            </div>
                     </div>
                 </>
         );

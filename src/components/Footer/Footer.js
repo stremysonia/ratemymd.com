@@ -9,11 +9,11 @@ const Footer = () => {
                         <div className="rights">
                             <li className="footer-copyright">All Rights Reserved. Copyright © 2020 Sonia St.Remy</li>
                         </div>
-                        <div className="footer">
+                        <li className="footer">
                             <a className="about" 
                                 href="about">About Us
                             </a>
-                        </div>
+                        </li>
                             <li className="footer">
                                 <a className="contact" 
                                     href="contact">Contact
