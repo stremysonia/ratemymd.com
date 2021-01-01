@@ -1,81 +1,121 @@
-.form-containers {
-  position: absolute;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 540px;
-  width: 950px;
-  margin: 10px 10px;
-  border: 2.5px solid black;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  padding: 25px 25px;
-  }
-
-.left {
-  display: flex;
-}
-
-.form-column-right {
+.contact-form {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 4%;
 }
 
-input {
-  margin: 10px 10px;
-  padding: 10px 10px;
-  border-radius: 8px;
-  border: .5px solid gray;
-  width: 400px;
+.form-container {
+  border: .5px solid black;
+  box-shadow: 10px 10px 10px 10px black;
+  padding: 10px 25px;
+}
+
+.form-header {
+  margin: 5px 5px;
+  padding: 5px 5px;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px;
+  letter-spacing: 1.5px;
+}
+
+.name-contact-form, 
+.email-contact-form,
+.phonenumber-contact-form,
+.subject-contact-form {
+  border-radius: 6px;
+  border: .5px solid black;
+  padding: 20px;
+  width: 60ch;
+  color: black;
+  margin: 10px;
+  font-size: 12px;
+}
+
+.name-contact-form:focus,
+.email-contact-form:focus,
+.phonenumber-contact-form:focus,
+.subject-contact-form:focus {
   outline: none;
-  min-height: 50px;
-  letter-spacing: 1.5px; 
+}
+
+.message-contact-form {
+  border-radius: 6px;
+  border: .5px solid black;
+  padding: 20px;
+  width: 55ch;
+  color: black;
+  margin: 10px;
+  font-size: 12px;
+  height: 20ch;
+}
+
+.message-contact-form {
+  outline: none;
+}
+
+.input-group {
+  display: flex;
+  flex-direction: column;
 }
 
 textarea {
-  margin: 10px 10px;
-  padding: 20px 20px;
-  border-radius: 8px;
-  border: .5px solid gray;
-  outline: none;
-  width: 400px;
-  min-height: 420px;
-  letter-spacing: 1.5px;
-  font-size: 14px;
+  border-radius: 6px;
+  padding: 20px;
+  resize: none;
+  color: black;
+  margin: 10px;
+  font-size: 12px;
+  width: 45ch;
 }
 
-.form-contact-info {
+textarea:focus {
+  outline: none;
+}
+
+input::placeholder {
+  color: black;
+  font-size: 12px;
+  letter-spacing: 3.5px;
+}
+
+textarea::placeholder {
+  color: black;
+  font-size: 12px;
+  letter-spacing: 2px;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button-contact-form {
+  padding: 10px;
+  margin: 10px;
+  font-size: 12px;
+  letter-spacing: 2.5px;
+  width: 100px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  position: relative;
-  letter-spacing: 2px;
-  left: 5%;
-  top: -20%;
-  transform: translate(-50%, -50%);
   text-transform: uppercase;
-  font-weight: lighter;
+  font-weight: 700;
+  color: white;
+  background-color: tomato;
+  border: .5px solid tomato;
+  border-radius: 6px;
 }
 
-.form-group {
-  width: 100%;
-  padding: 10px 0;
-  background: none;
-  border: none;
-  border-bottom: 1px solid #666;
-  color: #ddd;
-  font-size: 14px;
-  text-transform: uppercase;
+.button-contact-form:focus {
   outline: none;
- 
 }
 
-.form-button {
-	padding: 10px 110px;
-	background-color: red;
-	font-size: 1.1rem;
-	border: none;
-	outline: none;
-	cursor: pointer;
-}

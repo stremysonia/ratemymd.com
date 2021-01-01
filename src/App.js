@@ -34,6 +34,7 @@ function App() {
                 <Route exact path="/">
                   <Home/>
                 </Route>
+                
               </Switch>
               <Footer/>
             </Router>
