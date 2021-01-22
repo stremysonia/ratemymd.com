@@ -2,8 +2,11 @@ import React from "react"
 import './Hospitals.css'
 
 const Hospitals = () => {
-            return {
-            };
-}
+        return (
+            <>
+                <div></div>
+            </>
+        )
+    }
 
 export default Hospitals;

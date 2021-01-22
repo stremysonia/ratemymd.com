@@ -1,11 +1,12 @@
 import React from 'react';
 import './Navbar.css';
-// import '../Logo/Logo'
+import Logo from '../Logo/Logo'
 import 'boxicons'
 
 const Navbar = () => {
             return (
                 <>
+                    <Logo/>
                     <div className="navbar-container">
                         <div className="search-bar-container">
                             <input type="text" className="search" placeholder="Search . . ." required>
@@ -26,11 +27,11 @@ const Navbar = () => {
                                                 <li><a className="navbar-links" 
                                                     href="nurses">Nurses</a>
                                                 </li>
-                                                    <li><a className="navbar-links" 
-                                                        href="login">Log In</a>
-                                                    </li>
+                                                    {/* <li><a className="navbar-links"  */}
+                                                        {/* href="login">Log In</a> */}
+                                                    {/* </li> */}
                                                         <li><a className="navbar-links" 
-                                                            href="signup">Sign Up</a>
+                                                            href="signup">Sign Up</a><a href="signin">| Sign In</a>
                                                         </li>
                                     </ul>
                         </div>

@@ -1,0 +1,159 @@
+/* body {
+    margin: 0;
+    padding: 0;
+} */
+
+.signup-form {
+    width: 840px;
+    height: 400px;
+    box-shadow: 6px 6px 6px 6px gray;
+    padding: 40px 40px 40px 40px;
+    /* margin: 20px; */
+    /* border: 2px solid black; */
+    background-color: #ffffff;
+    /* padding: 20px 20px; */
+    margin: 4.6% auto 0;
+    /* text-align: center; */
+    /* align-items: center; */
+    display: flex;
+}
+
+.signup {
+    /* padding: 20px 20px; */
+    /* margin: 20px 20px; */
+    /* height: 410px; */
+    /* width: 230px; */
+    text-align: center;
+    flex: 50%;
+    /* background-color: blue; */
+}
+
+.signup-title,
+.signin-title {
+    /* color: red; */
+    text-align: center;
+    font-size: 16px;
+    letter-spacing: 2.5px;
+    padding: 10px;
+    font-weight: lighter;
+    /* margin-bottom: 30px; */
+    text-transform: uppercase;
+}
+
+.signin-out {
+    padding: 20px 10px 20px 10px;
+}
+
+.name-signup,
+.email-signup,
+.password-signup,
+.email-signin,
+.password-signin {
+    width: 86%;
+    height: 12%;
+    margin: 10px;
+    padding: 10px;
+    /* border-radius: 12px; */
+    outline: none;
+    border: 1px solid black;
+}
+
+.input-container {
+    /* text-align: center; */
+    /* align-items: center; */
+    /* align-self: center; */
+    /* position: absolute; */
+}
+
+.input-terms {
+    text-transform: uppercase;
+    font-size: 8.5px;
+    letter-spacing: 2px;
+    /* align-content: center; */
+}
+
+.terms-privacy {
+    text-decoration: none;
+    color: blue;
+
+}
+
+.terms-condtion-container {
+    padding: 10px;
+    /* margin: 10px; */
+}
+
+.input-box {
+    /* border-radius: 20px; */
+    /* margin: 10px; */
+    width: 40px;
+    padding: 20px;
+    /* align-items: center; */
+    /* border: 1px solid #999; */
+    /* outline: none; */
+    /* float: inline-start; */
+    /* padding: 0; */
+    /* margin: 0; */
+}
+
+.terms-privacy {
+    padding: 5px;
+}
+
+.sign-button-container {
+    padding: 10px 10px 10px 10px;
+    margin: 10px ;
+}
+
+.signup-button,
+.signin-button {
+    color: #fff;
+    width: 40%;
+    padding: 10px;
+    /* border-radius: 20px; */
+    font-size: 15px;
+    margin: 10px 0;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: tomato;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-weight: bold;
+}
+
+.signup-vl {
+    border-left: 1px solid black;
+    /* margin-top: 20px; */
+    height: 300px;
+    position: absolute;
+    /* bottom: 50%; */
+    left: 50%;
+    /* text-align: center; */
+    /* margin-left: -3px; */
+    top: 48%;
+    transform: translate(-50%, -50%);
+}
+
+.signin-form {
+    text-align: center;
+    /* padding: 20px 20px; */
+    /* margin: 20px 20px; */
+    /* text-align: left; */
+    /* margin: 4.6% auto 0; */
+    flex: 50%;
+    /* background-color: yellow; */
+}
+
+.signin-forgot-password {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: blue;
+    font-size: 8.5px;
+    letter-spacing: 2px;
+}
+
+input::placeholder {
+    /* background-color: white; */
+    font-size: 14px;
+}

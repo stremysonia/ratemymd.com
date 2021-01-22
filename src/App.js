@@ -1,6 +1,6 @@
 import "./App.css"
 import React from 'react';
-import { Home, About, Contact, Doctors, Nurses, Hospitals} from './pages/index'
+import { Home, About, Contact, Doctors, Nurses, Hospitals, Signup } from './pages/index'
 import { Navbar, Footer } from './components/index'
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
@@ -10,6 +10,10 @@ function App() {
               <Router>
                 <Navbar/>
                 <Switch>
+
+                <Route path="/Signup">
+                  <Signup/>
+                  </Route>
 
                 <Route path="/Hospitals">
                   <Hospitals/>

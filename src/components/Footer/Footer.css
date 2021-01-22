@@ -18,7 +18,6 @@
 .footer-copyright, .footer {
     letter-spacing: 2px;
     position: relative;
-    font-size: 10px;
     text-transform: uppercase;
 }
 
@@ -47,6 +46,11 @@
 li {
     position: relative;
     list-style: none;
+}
+
+.about, .contact,
+.rights {
+    font-size: 10.5px;
 }
 
 
