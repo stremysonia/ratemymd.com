@@ -27,12 +27,10 @@ const Navbar = () => {
                                                 <li><a className="navbar-links" 
                                                     href="nurses">Nurses</a>
                                                 </li>
-                                                    {/* <li><a className="navbar-links"  */}
-                                                        {/* href="login">Log In</a> */}
-                                                    {/* </li> */}
-                                                        <li><a className="navbar-links" 
-                                                            href="signup">Sign Up</a><a href="signin">| Sign In</a>
-                                                        </li>
+                                                    <li><a className="navbar-links links" 
+                                                        href="signup">Sign Up</a> 
+                                                            <a className="navbar-links links" href="signin">Sign In</a>
+                                                    </li>
                                     </ul>
                         </div>
                     

@@ -131,6 +131,9 @@ body {
     /* cursor: pointer; */
 }
 
+.links {
+    display: inline;
+}
 
 
 /* input:placeholder-shown {

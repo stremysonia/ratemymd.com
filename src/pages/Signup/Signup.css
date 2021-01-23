@@ -3,9 +3,25 @@
     padding: 0;
 } */
 
+.signup-image {
+    border-radius: 100%;
+    /* margin: -10% auto 0; */
+    /* text-align: center; */
+    /* display: flex; */
+    /* justify-content: center; */
+    height: 90px;
+    width: 90px;
+    padding: 0;
+    margin: 0;
+    /* color: tomato; */
+    
+
+
+}
+
 .signup-form {
-    width: 840px;
-    height: 400px;
+    width: 540px;
+    height: 440px;
     box-shadow: 6px 6px 6px 6px gray;
     padding: 40px 40px 40px 40px;
     /* margin: 20px; */
@@ -16,6 +32,7 @@
     /* text-align: center; */
     /* align-items: center; */
     display: flex;
+    /* z-index: -1; */
 }
 
 .signup {
@@ -33,9 +50,10 @@
     /* color: red; */
     text-align: center;
     font-size: 16px;
-    letter-spacing: 2.5px;
-    padding: 10px;
-    font-weight: lighter;
+    font-weight: normal;
+    letter-spacing: 4.5px;
+    padding: 0px 0px 20px 0px;
+    /* font-weight: lighter; */
     /* margin-bottom: 30px; */
     text-transform: uppercase;
 }
@@ -69,6 +87,7 @@
     text-transform: uppercase;
     font-size: 8.5px;
     letter-spacing: 2px;
+    /* line-height: normal; */
     /* align-content: center; */
 }
 
@@ -79,15 +98,15 @@
 }
 
 .terms-condtion-container {
-    padding: 10px;
+    padding: 2px;
     /* margin: 10px; */
 }
 
 .input-box {
     /* border-radius: 20px; */
     /* margin: 10px; */
-    width: 40px;
-    padding: 20px;
+    width: 25px;
+    /* padding: 20px; */
     /* align-items: center; */
     /* border: 1px solid #999; */
     /* outline: none; */
@@ -108,8 +127,8 @@
 .signup-button,
 .signin-button {
     color: #fff;
-    width: 40%;
-    padding: 10px;
+    width: 45%;
+    padding: 12px;
     /* border-radius: 20px; */
     font-size: 15px;
     margin: 10px 0;
@@ -118,8 +137,20 @@
     cursor: pointer;
     background-color: tomato;
     text-transform: uppercase;
-    letter-spacing: 3px;
+    letter-spacing: 4px;
     font-weight: bold;
+    opacity: 1;
+    transition: 0.3s;
+}
+
+.signup-button:hover {
+    opacity: 0.6;
+}
+
+.signup-button:active {
+    background-color: tomato;
+    box-shadow: 0 6px gray;
+    transform: translateY(4px);
 }
 
 .signup-vl {
@@ -156,4 +187,23 @@
 input::placeholder {
     /* background-color: white; */
     font-size: 14px;
+}
+
+.signin-account {
+    padding: 5px 0px 5px 0px;
+    text-transform: uppercase;
+    font-size: 8.5px;
+    letter-spacing: 2px;
+
+}
+
+.signin {
+    padding: 4px;
+    text-transform: uppercase;
+    font-size: 8.5px;
+    letter-spacing: 2px;
+    text-decoration: none;
+    color: blue;
+    /* color: blue; */
+
 }
