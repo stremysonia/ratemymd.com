@@ -1,0 +1,114 @@
+.signin-form {
+    width: 440px;
+    height: 320px;
+    box-shadow: 6px 6px 6px 6px gray;
+    padding: 40px 40px 40px 40px;
+    /* margin: 20px; */
+    /* border: 2px solid black; */
+    background-color: #ffffff;
+    /* padding: 20px 20px; */
+    margin: 6.6% auto 0;
+    text-align: center;
+    /* align-items: center; */
+    /* display: flex; */
+    /* z-index: -1; */
+}
+
+.signin {
+    /* text-align: center; */
+    /* flex: 50%; */
+}
+
+.signin-title {
+    /* color: red; */
+    text-align: center;
+    font-size: 16px;
+    font-weight: normal;
+    letter-spacing: 4.5px;
+    padding: 0px 0px 20px 0px;
+    /* font-weight: lighter; */
+    /* margin-bottom: 30px; */
+    text-transform: uppercase;
+}
+
+.email-signin,
+.password-signin {
+    width: 86%;
+    height: 12%;
+    margin: 10px;
+    padding: 10px;
+    /* border-radius: 12px; */
+    outline: none;
+    border: 1px solid black;
+}
+
+.signin-button {
+    color: #fff;
+    width: 40%;
+    padding: 12px;
+    /* border-radius: 20px; */
+    font-size: 15px;
+    margin: 10px 0;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: tomato;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-weight: bold;
+    opacity: 1;
+    transition: 0.3s;
+}
+
+
+.signin-form {
+    /* text-align: center; */
+    /* padding: 20px 20px; */
+    /* margin: 20px 20px; */
+    /* text-align: left; */
+    /* margin: 4.6% auto 0; */
+    /* flex: 50%; */
+    /* background-color: yellow; */
+}
+
+.signin-forgot {
+    letter-spacing: 2px;
+    font-size: 8.5px;
+    text-transform: uppercase;
+    /* padding: 5px; */
+}
+
+.signin-forgot-password,
+.signin-forgot-username {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: blue;
+    font-size: 8.5px;
+    letter-spacing: 2px;
+    padding: 3px;
+    /* padding-left: 4px; */
+}
+
+.signin-noaccount {
+    padding: 0px 0px 5px 0px;
+    text-transform: uppercase;
+    font-size: 8.5px;
+    letter-spacing: 2px;
+
+}
+
+.signin {
+    padding: 4px;
+    text-transform: uppercase;
+    font-size: 8.5px;
+    letter-spacing: 2px;
+    text-decoration: none;
+    color: blue;
+    /* color: blue; */
+
+}
+
+input::placeholder {
+    /* background-color: white; */
+    font-size: 14px;
+}

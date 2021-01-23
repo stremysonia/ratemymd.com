@@ -5,10 +5,8 @@ import './Signup.css'
 const Signup = () => {
     return (
         <>
-            {/* <img className="signup-image" src={avatar} alt="Avatar For An Account"/> */}
             <div className="signup-form">
-            {/* <img className="signup-image" src={avatar} alt="Avatar For An Account"/> */}
-                <form className="signup">
+            <form className="signup">
                     <h3 className="signup-title">Sign Up</h3>
                     <div>
                         <input
