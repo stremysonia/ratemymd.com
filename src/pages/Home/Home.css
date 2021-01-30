@@ -1,26 +1,41 @@
-.home-image {
+.homepage-image {
     position: absolute;
-    top: 38%;
-    left: 50%;
+    top: 55%;
+    left: 35%;
     transform: translate(-50%, -50%);
-    width: 1500px;
-    z-index: -1;
+    width: 950px; 
+    height: 750px;
+    /* opacity: 4px; */
+}
+
+.homepage-quote {
+    position: absolute;
+    top: 45%;
+    left: 70.5%;
+    transform: translate(-50%, -50%);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 14.5px;
+    line-height: 28px;
+    /* font-style: italic; */
+    text-align: center;
+    display: flex;
 }
 
 .cta-button {
     position: absolute;
-    top: 45%;
-    left: 54%;
+    top: 57%;
+    left: 70.5%;
     transform: translate(-50%, -50%);
     text-transform: uppercase;
     text-decoration: none;
     color: black;
     letter-spacing: 4.5px;
     color: white;
-    border: 1px solid #0b4bb8;
-    background-color: #0b4bb8;
-    padding: 20px 42px;
-    border-radius: 10px;
+    border: 1px solid tomato;
+    background-color: tomato;
+    padding: 16px 42px;
+    /* border-radius: 10px; */
     font-weight: 700;
     /* transition: all .2s ease-in; */
 }
@@ -29,9 +44,10 @@
     /* transform: translateX(-15px) scale(1.1); */
     /* box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.3); */
 }
+/* 
+@media only screen and (min-device-width: 600px) {
+    img {width: 50px;
+    height: 50px}
+    } */
 
-@media only screen and (min-device-width: 400px) {
-    body {
-        background-image: ('undraw_doctors_hwty1');
-    }
-}
+

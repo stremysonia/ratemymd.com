@@ -4,7 +4,7 @@ RATEMYMD was created as a result of a traumatic experience that I went through i
 
 From rich to poor black mothers are not listened to when they report signs of possible complications during pregnancy and birth. Not only, are their concerns dismissed, but traumatic birthing experiences are so common that one - quarter of black women report disrespect and abuse from medical professionals in the hospital. New York's Department of Health has found that black women are three times more likely to die from pregnancy - related complications than white women, and this disparity persisted even when college - educated black women were compared with non - black women who did not finish high school. 
 
-My contribution to combating this racial disparity is by creating RATEMYMD. A web application developed to give a voice to the voiceless. With this app visitors are able to comment and rate their hospital, doctors and nurses be it positive or negative mistreatment by hospital staff. A nation's greatness is measured by how it treats it's weakest member and as of right now America is falling horribly.
+My contribution to combating this racial disparity is by creating RATEMYMD. A web application developed to give a voice to the voiceless. With this app visitors are able to comment and rate their hospital, doctors and nurses be it positive or negative mistreatment by hospital staff. A nation's greatness is measured by how it treats it's weakest member and as of right now America is failing horribly.
 
 
 
