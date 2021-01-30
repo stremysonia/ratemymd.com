@@ -1,20 +1,35 @@
 .contact-form {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  /* display: flex; */
+  /* flex-direction: column; */
+  /* justify-content: center; */
+  /* align-items: center; */
   margin-top: 4%;
 }
 
 .form-container {
+  /* display: flex; */
+  /* align-items: center; */
   /* border: .5px solid black; */
   box-shadow: 8px 8px 8px 8px #c2c8c6;
+  margin: auto;
+  /* width: 50%; */
+  width: 500px;
   padding: 10px 25px;
+  /* left: 50%; */
+  /* bottom: 50%; */
+  /* transform: translate(-50, -50); */
+
+  /* align-items: center; */
 }
 
 .form-header {
   margin: 5px 5px;
   padding: 5px 5px;
+  /* display: flex;  */
+  /* flex-direction: column; */
+  /* justify-content: center; */
+  /* align-items: center; */
+  /* font-size: 26px; */
 }
 
 .contact {
@@ -22,8 +37,9 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  font-size: 12px;
-  letter-spacing: 1.5px;
+  font-size: 28px;
+  /* font-weight: lighter; */
+  letter-spacing: 2.5px;
 }
 
 .name-contact-form, 
@@ -117,5 +133,12 @@ textarea::placeholder {
 
 .button-contact-form:focus {
   outline: none;
+}
+
+.submit-message, 
+.error-message {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
