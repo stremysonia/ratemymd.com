@@ -1,21 +1,22 @@
 .homepage-image {
     position: absolute;
     top: 55%;
-    left: 35%;
+    left: 45%;
     transform: translate(-50%, -50%);
-    width: 950px; 
-    height: 750px;
+    width: 1600px; 
+    height: 800px;
     /* opacity: 4px; */
+    /* z-index: -1; */
 }
 
 .homepage-quote {
     position: absolute;
     top: 45%;
-    left: 70.5%;
+    left: 78%;
     transform: translate(-50%, -50%);
     text-transform: uppercase;
     letter-spacing: 1px;
-    font-size: 14.5px;
+    font-size: 12px;
     line-height: 28px;
     /* font-style: italic; */
     text-align: center;
@@ -25,15 +26,15 @@
 .cta-button {
     position: absolute;
     top: 57%;
-    left: 70.5%;
+    left: 78%;
     transform: translate(-50%, -50%);
     text-transform: uppercase;
     text-decoration: none;
     color: black;
     letter-spacing: 4.5px;
     color: white;
-    border: 1px solid tomato;
-    background-color: tomato;
+    border: 1px solid blue;
+    background-color: blue;
     padding: 16px 42px;
     /* border-radius: 10px; */
     font-weight: 700;
